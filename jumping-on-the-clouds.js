@@ -17,3 +17,5 @@ function jumpingOnClouds(c) {
     return acc;
   }, 0);
 }
+
+console.log(jumpingOnClouds([0, 0, 1, 0, 0, 1, 0]));

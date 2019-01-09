@@ -8,3 +8,6 @@ function repeatedString(s, n) {
 
   return match(s) * f + match(s.substr(0, d));
 }
+
+console.log(repeatedString('a', 1e12));
+console.log(repeatedString('aba', 10));

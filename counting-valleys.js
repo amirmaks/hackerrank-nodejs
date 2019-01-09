@@ -17,3 +17,5 @@ function countingValleys(n, s) {
 
   return valleys;
 }
+
+console.log(countingValleys(8, 'UDDDUDUU'));
