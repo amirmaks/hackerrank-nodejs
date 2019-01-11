@@ -1,17 +1,17 @@
 function minimumBribes(q) {
-  let c = 0;
+  let b = 0;
 
   for (let p = q.length - 1; p >= 0; p--) {
     if (q[p] - (p + 1) > 2) {
-      c = "Too chaotic";
+      b = "Too chaotic";
       break;
     }
     for (let j = q[p] - 2; j < p; j++) {
       if (q[j] > q[p])
-        ++c
+        ++b
     }
   }
-  console.log(c)
+  console.log(b)
 }
 
 // console.log(minimumBribes([2, 1, 5, 3, 4]));
