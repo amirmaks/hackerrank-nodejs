@@ -1,3 +1,9 @@
+/**
+ * https://www.hackerrank.com/challenges/sock-merchant
+ * @param n
+ * @param ar
+ * @returns {number}
+ */
 function sockMerchant(n, ar) {
   if (n !== ar.length) return;
 

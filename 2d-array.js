@@ -1,3 +1,8 @@
+/**
+ * https://www.hackerrank.com/challenges/2d-array
+ * @param arr
+ * @returns {number}
+ */
 function hourglassSum(arr) {
 
   let offsetI = 0;

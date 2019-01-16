@@ -1,3 +1,9 @@
+/**
+ * https://www.hackerrank.com/challenges/counting-valleys
+ * @param n
+ * @param s
+ * @returns {number}
+ */
 function countingValleys(n, s) {
   if (n < 2 || n > 10e5) throw new Error('n is out of range');
   let steps = s.split('');

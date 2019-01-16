@@ -1,3 +1,7 @@
+/**
+ * https://www.hackerrank.com/challenges/jumping-on-the-clouds
+ * @param c
+ */
 function jumpingOnClouds(c) {
   let offsetStep = 0;
 

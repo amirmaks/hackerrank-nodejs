@@ -1,3 +1,9 @@
+/**
+ * https://www.hackerrank.com/challenges/repeated-string
+ * @param s
+ * @param n
+ * @returns {*}
+ */
 function repeatedString(s, n) {
   function match(str) {
     return str.split('').filter(item => item === 'a').length;
