@@ -1,3 +1,7 @@
+/**
+ * https://www.hackerrank.com/challenges/new-year-chaos
+ * @param q
+ */
 function minimumBribes(q) {
   let b = 0;
 
@@ -24,3 +28,4 @@ function minimumBribes(q) {
 // console.log(minimumBribes([1, 2, 5, 3, 4, 7, 8, 6]));
 // console.log(minimumBribes([5, 1, 2, 3, 7, 8, 6, 4]));
 minimumBribes([1, 2, 3, 4, 5, 6, 7, 10, 11, 8, 9,]); //7
+
