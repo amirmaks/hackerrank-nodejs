@@ -1,3 +1,9 @@
+/**
+ * https://www.hackerrank.com/challenges/ctci-ransom-note
+ *
+ * @param magazine
+ * @param note
+ */
 function checkMagazine(magazine, note) {
   let h = magazine.reduce((acc, cur) => {
     if (acc.has(cur)) {
