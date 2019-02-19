@@ -1,3 +1,9 @@
+/**
+ *
+ * @param s1
+ * @param s2
+ * @returns {string}
+ */
 function twoStrings(s1, s2) {
   let h = new Map();
   for (let i = 0; i < s1.length; i++) {
