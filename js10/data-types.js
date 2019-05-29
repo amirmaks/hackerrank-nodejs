@@ -1,3 +1,7 @@
+/**
+ * https://www.hackerrank.com/challenges/js10-data-types/
+ */
+
 'use strict';
 
 process.stdin.resume();

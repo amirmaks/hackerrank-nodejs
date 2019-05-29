@@ -1,3 +1,7 @@
+/**
+ * https://www.hackerrank.com/challenges/js10-loops
+ * @param s
+ */
 function vowelsAndConsonants(s) {
   const vowels = {
     'a' : 1,
